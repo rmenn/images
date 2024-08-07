@@ -1,0 +1,33 @@
+{
+  "Signature": null,
+  "Description": "",
+  "Packages": [
+    {
+      "Name": "trivy",
+      "Version": "0.54.0-r2",
+      "Arch": "aarch64",
+      "Description": "Simple and comprehensive vulnerability scanner for containers",
+      "License": "Apache-2.0",
+      "Origin": "trivy",
+      "Maintainer": "",
+      "URL": "",
+      "Checksum": "HlX+CezkkYX9igXVaR/GNj8b7wM=",
+      "Dependencies": [
+        "so:ld-linux-aarch64.so.1",
+        "so:libc.so.6"
+      ],
+      "Provides": [
+        "cmd:trivy=0.54.0-r2"
+      ],
+      "InstallIf": null,
+      "Size": 61358752,
+      "InstalledSize": 229756542,
+      "ProviderPriority": 0,
+      "BuildTime": "1970-01-01T00:00:00Z",
+      "BuildDate": 0,
+      "RepoCommit": "",
+      "Replaces": null,
+      "DataHash": "3a970f9f550863613977409003d3f3b69bcd1a580e24dc85db3206be5b24dd3f"
+    }
+  ]
+}
