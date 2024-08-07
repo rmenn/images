@@ -54,7 +54,58 @@
       "BuildDate": 0,
       "RepoCommit": "",
       "Replaces": null,
-      "DataHash": "702b0c430a32706dbc8124a17652d533e000dbebd24b52e66f95c8d1fe688558"
+      "DataHash": ""
+    },
+    {
+      "Name": "go-1.22",
+      "Version": "1.22.5-r0",
+      "Arch": "x86_64",
+      "Description": "the Go programming language",
+      "License": "BSD-3-Clause",
+      "Origin": "go-1.22",
+      "Maintainer": "",
+      "URL": "",
+      "Checksum": "7VuGnr7SzFtnGpkNIsz3bmd83cM=",
+      "Dependencies": [
+        "bash",
+        "binutils-gold",
+        "build-base"
+      ],
+      "Provides": [
+        "go-bootstrap=1.22",
+        "go=1.22.5-r0"
+      ],
+      "InstallIf": null,
+      "Size": 63445144,
+      "InstalledSize": 183949754,
+      "ProviderPriority": 0,
+      "BuildTime": "1970-01-01T00:00:00Z",
+      "BuildDate": 0,
+      "RepoCommit": "",
+      "Replaces": null,
+      "DataHash": "c5aad845b634934bd9b32f913713e3a1792beb591e7603ceb1fdfb90f5301a7d"
+    },
+    {
+      "Name": "go-1.22-doc",
+      "Version": "1.22.5-r0",
+      "Arch": "x86_64",
+      "Description": "go documentation",
+      "License": "BSD-3-Clause",
+      "Origin": "go-1.22",
+      "Maintainer": "",
+      "URL": "",
+      "Checksum": "v+O+OkqnYBLOz1O5UdgVd6sPbJ0=",
+      "Dependencies": null,
+      "Provides": null,
+      "InstallIf": null,
+      "Size": 211238,
+      "InstalledSize": 678584,
+      "ProviderPriority": 0,
+      "BuildTime": "1970-01-01T00:00:00Z",
+      "BuildDate": 0,
+      "RepoCommit": "",
+      "Replaces": null,
+      "DataHash": "4eeb5cea941af54da4c8bf1ef1a9fd2bd00f2dc7c478e4130fd0b1bf82520b3b"
     }
   ]
 }
